@@ -16,7 +16,6 @@ e muito mais. Ideal para desenvolver desde sites simples até sistemas complexos
 
 Para verificar se PHP, Composer e Laravel estão instalados, rode no PowerShell:
 
-´´´
 ```powershell
 composer -v
 php -v
