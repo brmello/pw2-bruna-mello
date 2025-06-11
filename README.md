@@ -6,8 +6,7 @@ e muito mais. Ideal para desenvolver desde sites simples até sistemas complexos
 
 ---
 
-## Pré-requisitos
- 
+#Pré-requisitos
 - PHP, Composer e Laravel instalados (se não tiver, veja o passo de instalação abaixo)
 
 ---
