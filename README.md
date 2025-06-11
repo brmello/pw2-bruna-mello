@@ -24,6 +24,7 @@ laravel -v
 Se algum comando não for reconhecido siga o seguinte passo:
 
 ## Instalando PHP, Composer e Laravel. 
+Caso você não tenha os requisitos acima instalados, rode no Powershell como Administrador:
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
 ```
