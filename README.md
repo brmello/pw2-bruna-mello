@@ -19,6 +19,7 @@ Para verificar se PHP, Composer e Laravel estão instalados, rode no PowerShell:
 composer -v
 php -v
 laravel -v
+```
 
 Se algum comando não for reconhecido siga o seguinte passo:
 
