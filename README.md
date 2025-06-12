@@ -38,8 +38,24 @@ composer global require laravel/installer
 
 ## Criando um aplicativo
 Após instalar o PHP, o Composer e o instalador do Laravel, você estará pronto para criar uma nova aplicação Laravel.
-
-
+```
+laravel new example-app
+```
+O instalador do Laravel solicitará que você selecione seu framework de testes, banco de dados e kit inicial preferidos:
+```
+Which starter kit would you like to install? [None]:
+None
+```
+```
+Which database will your application use? [SQLite]:
+SQLite
+```
+```
+Would you like to run npm install and npm run build? (yes/no) [yes]:
+yes
+```
+ 
+ 
 
 
 ## Reinicie
