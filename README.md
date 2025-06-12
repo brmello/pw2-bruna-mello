@@ -30,3 +30,14 @@ Caso você não tenha os requisitos acima instalados, rode no Powershell como Ad
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
 ```
 Após executar o comando acima e dar tudo certo, reinicie seu terminal. 
+
+## Após reiniciar o terminal, abra ele dentro da pasta do seu projeto laravel.
+Rode no powershell: 
+
+```
+npm install
+```
+```
+npm run build 
+```
+
