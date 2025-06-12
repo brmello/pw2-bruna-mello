@@ -36,6 +36,12 @@ Se você já tem o PHP e o Composer instalados, você pode instalar o instalador
 composer global require laravel/installer
 ```
 
+## Criando um aplicativo
+Após instalar o PHP, o Composer e o instalador do Laravel, você estará pronto para criar uma nova aplicação Laravel.
+
+
+
+
 ## Reinicie
 Após executar o comando acima, reinicie sua sessão de terminal.
 
