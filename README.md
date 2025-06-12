@@ -6,29 +6,34 @@ e muito mais. Ideal para desenvolver desde sites simples até sistemas complexos
 
 ---
 
-## Pré-requisitos
+## Criando uma aplicação Laravel
 Antes de criar seu primeiro aplicativo Laravel, certifique-se de que sua máquina local tenha PHP,
 Composer e o instalador do Laravel instalados.
 
-Para verificar abra o powerhell e rode:
+Para verificar se você ja tem todos instalados, execute o seguinte comando no PowerShell:
 ```
 composer -v
+
+```
+```
 php -v
+```
+```
 laravel -v
 ```
 
 Se algum comando não for reconhecido siga o seguinte passo:
 
 ## Instalando PHP, Composer e Laravel. 
-Caso você não tenha os requisitos acima instalados, rode no Powershell como Administrador:
+Caso você não tenha os requisitos instalados em sua máquina, os comandos a seguir instalarão o PHP, o Composer e o instalador do Laravel.
+(Abra o powershell como administrador)
 ```
 # Run as administrator...
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
 ```
-Após executar o comando acima e dar tudo certo, reinicie seu terminal. 
 
-## Após reiniciar o terminal, abra ele dentro da pasta do seu projeto laravel.
-Rode no powershell: 
+## Reinicie
+Após executar o comando acima, reinicie sua sessão de terminal.
 
 ```
 npm install
