@@ -7,15 +7,11 @@ e muito mais. Ideal para desenvolver desde sites simples até sistemas complexos
 ---
 
 ## Pré-requisitos
-- PHP, Composer e Laravel instalados (se não tiver, veja o passo de instalação abaixo)
+Antes de criar seu primeiro aplicativo Laravel, certifique-se de que sua máquina local tenha PHP,
+Composer e o instalador do Laravel instalados.
 
----
-
-## Verificando Instalações
-
-Para verificar se PHP, Composer e Laravel estão instalados, rode no PowerShell:
-
-```powershell
+Para verificar abra o powerhell e rode:
+```
 composer -v
 php -v
 laravel -v
@@ -37,7 +33,13 @@ Rode no powershell:
 ```
 npm install
 ```
+Ele vai instalar as dependências do projeto.
+
 ```
 npm run build 
 ```
+Aqui ele vai criar a versão otimizada do seu código para produção.
+
+##Abra o seu projeto no Visual Studio Code 
+Dentro da pasta do seu projeto terá um arquivo com o nome .env.example
 
