@@ -31,6 +31,11 @@ Caso você não tenha os requisitos instalados em sua máquina, os comandos a se
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
 ```
 
+Se você já tem o PHP e o Composer instalados, você pode instalar o instalador do Laravel via Composer:
+```
+composer global require laravel/installer
+```
+
 ## Reinicie
 Após executar o comando acima, reinicie sua sessão de terminal.
 
