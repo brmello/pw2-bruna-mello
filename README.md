@@ -59,6 +59,10 @@ Após responder todas as perguntas acima, você vai usar o comando:
 composer run dev
 ```
 
+Após ter criado seu aplicativo, você consegue abrir ele com o seguinte comando:
+```
+code .
+```
 
 ## Reinicie
 Após executar o comando acima, reinicie sua sessão de terminal.
