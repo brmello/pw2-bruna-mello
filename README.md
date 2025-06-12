@@ -64,7 +64,7 @@ Após ter criado seu aplicativo, você consegue abrir ele com o seguinte comando
 code .
 ```
 
-## Reinicie
+## Como rodar uma aplicação ja criada.
 Após executar o comando acima, reinicie sua sessão de terminal.
 
 ```
