@@ -44,18 +44,20 @@ laravel new example-app
 O instalador do Laravel solicitará que você selecione seu framework de testes, banco de dados e kit inicial preferidos:
 ```
 Which starter kit would you like to install? [None]:
-None
+- None
 ```
 ```
 Which database will your application use? [SQLite]:
-SQLite
+- SQLite
 ```
 ```
 Would you like to run npm install and npm run build? (yes/no) [yes]:
-yes
+- yes
 ```
- 
- 
+Após responder todas as perguntas acima, você vai usar o comando: 
+```
+composer run dev
+```
 
 
 ## Reinicie
