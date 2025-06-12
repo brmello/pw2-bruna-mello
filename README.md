@@ -13,7 +13,6 @@ Composer e o instalador do Laravel instalados.
 Para verificar se você ja tem todos instalados, execute o seguinte comando no PowerShell:
 ```
 composer -v
-
 ```
 ```
 php -v
